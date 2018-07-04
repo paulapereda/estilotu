@@ -10,7 +10,7 @@
 #'
 #' @export
 #'
-#' @import ggthemr, syfonts
+#' @import ggthemr, syfonts, ggplot2
 
 
 sysfonts::font_add("MyriadPro", "MyriadPro-Regular.otf")
@@ -37,13 +37,13 @@ get_theme_palette <- function() {
 
 theme_our <- function(base_size = 12) {
 
-  ggplot2::theme_gray(base_size, base_family = "MyriadPro") +
-    ggplot2::theme(panel.grid.major = element_line(color = "#b6b6b6"),
-          plot.background  = element_rect(fill="#ffffff"),
-          panel.background = element_rect(fill="#ffffff"),
-          panel.grid.minor = element_line("#D5D0CE"),
-          axis.ticks =  element_line(colour = "#b6b6b6"),
-          text = element_text(family = "MyriadPro"))
+  theme_gray(base_size, base_family = "MyriadPro") +
+  theme(panel.grid.major = element_line(color = "#b6b6b6"),
+                 plot.background  = element_rect(fill="#ffffff"),
+                 panel.background = element_rect(fill="#ffffff"),
+                 panel.grid.minor = element_line("#D5D0CE"),
+                 axis.ticks =  element_line(colour = "#b6b6b6"),
+                 text = element_text(family = "MyriadPro"))
 
 }
 
@@ -58,7 +58,7 @@ set_estilotu <- function(base_size = 12)  {
 
   ggthemr::ggthemr(get_theme_palette())
 
-  ggplot2::theme_set(theme_our(base_size = base_size))
+  theme_set(theme_our(base_size = base_size))
 
   update_font_defaults()
 
