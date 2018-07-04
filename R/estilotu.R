@@ -37,8 +37,8 @@ get_theme_palette <- function() {
 
 theme_our <- function(base_size = 12) {
 
-  theme_gray(base_size, base_family = "MyriadPro") +
-    theme(panel.grid.major = element_line(color = "#b6b6b6"),
+  ggplot2::theme_gray(base_size, base_family = "MyriadPro") +
+    ggplot2::theme(panel.grid.major = element_line(color = "#b6b6b6"),
           plot.background  = element_rect(fill="#ffffff"),
           panel.background = element_rect(fill="#ffffff"),
           panel.grid.minor = element_line("#D5D0CE"),
