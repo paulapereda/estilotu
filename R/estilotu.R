@@ -10,14 +10,12 @@
 #'
 #' @export
 #'
-#' @import sysfonts, ggthemr
-
+#' @import ggthemr, syfonts
 
 
 sysfonts::font_add("MyriadPro", "MyriadPro-Regular.otf")
 
-
-paleta_transforma <- function() {
+get_theme_palette <- function() {
 
   ggthemr::define_palette(
     swatch = c(
@@ -37,7 +35,7 @@ paleta_transforma <- function() {
 
 }
 
-tema_transforma <- function(base_size = 12) {
+theme_our <- function(base_size = 12) {
 
   theme_gray(base_size, base_family = "MyriadPro") +
     theme(panel.grid.major = element_line(color = "#b6b6b6"),
@@ -49,7 +47,7 @@ tema_transforma <- function(base_size = 12) {
 
 }
 
-fuente_transforma <- function() {
+update_font_defaults <- function() {
 
   update_geom_defaults("text", list(family = "MyriadPro"))
   update_geom_defaults("label", list(family = "MyriadPro"))
@@ -58,16 +56,11 @@ fuente_transforma <- function() {
 
 set_estilotu <- function(base_size = 12)  {
 
-  ggthemr::ggthemr(paleta_transforma())
+  ggthemr::ggthemr(get_theme_palette())
 
-  theme_set(tema_transforma(base_size = base_size))
+  theme_set(theme_our(base_size = base_size))
 
-  fuente_transforma()
-
-}
-
-reset_estilotu <- function() {
-
-  ggthemr::ggthemr_reset()
+  update_font_defaults()
 
 }
+
