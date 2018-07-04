@@ -10,10 +10,9 @@
 #'
 #' @export
 #'
-#' @import ggthemr, showtext, here
+#' @import ggthemr, showtext
 
 
-library(here)
 library(ggthemr)
 library(showtext)
 font_add("MyriadPro", "MyriadPro-Regular.otf")
@@ -57,7 +56,7 @@ update_font_defaults <- function() {
 
 }
 
-estilotu <- function(base_size = 12)  {
+set_estilotu <- function(base_size = 12)  {
 
   ggthemr::ggthemr(get_theme_palette())
 
