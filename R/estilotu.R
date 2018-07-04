@@ -12,6 +12,7 @@
 #'
 #' @import ggthemr, syfonts, ggplot2
 
+library(ggplot2)
 
 sysfonts::font_add("MyriadPro", "MyriadPro-Regular.otf")
 
