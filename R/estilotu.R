@@ -58,7 +58,7 @@ set_estilotu <- function(base_size = 12)  {
 
   ggthemr::ggthemr(get_theme_palette())
 
-  theme_set(theme_our(base_size = base_size))
+  ggplot2::theme_set(theme_our(base_size = base_size))
 
   update_font_defaults()
 
