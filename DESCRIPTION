@@ -8,7 +8,5 @@ Description: Configura como default el tema de Transforma Uruguay para los gráf
 License: What license is it under?
 Encoding: UTF-8
 Depends:
- ggthemr, showtext
-Imports: 
- ggplot2
+ sysfonts
 LazyData: true
