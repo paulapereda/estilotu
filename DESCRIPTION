@@ -1,0 +1,14 @@
+Package: estilotu
+Type: Package
+Title: Tema de Transforma Uruguay.
+Version: 0.1.0
+Author: Paula Pereda
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Configura como default el tema de Transforma Uruguay para los gráficos creados en ggplot2.
+License: What license is it under?
+Encoding: UTF-8
+Depends:
+ ggthemr, showtext, here
+Imports: 
+ ggplot2
+LazyData: true
