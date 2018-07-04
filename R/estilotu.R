@@ -20,19 +20,19 @@ sysfonts::font_add("MyriadPro", "MyriadPro-Regular.otf")
 paleta_transforma <- function() {
 
   ggthemr::define_palette(
-          swatch = c(
-                     "#BACB33",
-                     "#F7941E",
-                     "#999B9E",
-                     "#ffcc00",
-                     "#2974B4",
-                     "#538fc3",
-                     "#d0400a",
-                     "#0a98cc",
-                     "#94a228",
-                     "#ffe066",
-                     "#865eae"),
-          gradient = c(lower = "#ffcc00", upper = "#BACB33")
+    swatch = c(
+      "#BACB33",
+      "#F7941E",
+      "#999B9E",
+      "#ffcc00",
+      "#2974B4",
+      "#538fc3",
+      "#d0400a",
+      "#0a98cc",
+      "#94a228",
+      "#ffe066",
+      "#865eae"),
+    gradient = c(lower = "#ffcc00", upper = "#BACB33")
   )
 
 }
@@ -40,12 +40,12 @@ paleta_transforma <- function() {
 tema_transforma <- function(base_size = 12) {
 
   theme_gray(base_size, base_family = "MyriadPro") +
-  theme(panel.grid.major = element_line(color = "#b6b6b6"),
-        plot.background  = element_rect(fill="#ffffff"),
-        panel.background = element_rect(fill="#ffffff"),
-        panel.grid.minor = element_line("#D5D0CE"),
-        axis.ticks =  element_line(colour = "#b6b6b6"),
-        text = element_text(family = "MyriadPro")))
+    theme(panel.grid.major = element_line(color = "#b6b6b6"),
+          plot.background  = element_rect(fill="#ffffff"),
+          panel.background = element_rect(fill="#ffffff"),
+          panel.grid.minor = element_line("#D5D0CE"),
+          axis.ticks =  element_line(colour = "#b6b6b6"),
+          text = element_text(family = "MyriadPro"))
 
 }
 
