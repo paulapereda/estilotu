@@ -39,7 +39,6 @@ get_theme_palette <- function() {
 
 theme_our <- function(base_size = 12) {
 
-  theme_bw(base_size, base_family = "MyriadPro") +
     theme(panel.grid.major = element_line(color = "#b6b6b6"),
           plot.background  = element_rect(fill="#ffffff"),
           panel.background = element_rect(fill="#ffffff"),
