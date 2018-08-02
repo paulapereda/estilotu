@@ -13,14 +13,14 @@ estilo_tu <- shinyDashboardThemeDIY(
   ,bodyBackColor = "rgb(240,240,240)"
 
   ### header
-  ,logoBackColor = "rgb(120,120,120)"
+  ,logoBackColor = "rgb(248,248,248)"
 
-  ,headerButtonBackColor = "rgb(120,120,120)"
+  ,headerButtonBackColor = "rgb(248,248,248)"
   ,headerButtonIconColor = "rgb(220,220,220)"
   ,headerButtonBackColorHover = "rgb(100,100,100)"
   ,headerButtonIconColorHover = "rgb(60,60,60)"
 
-  ,headerBackColor = "rgb(120,120,120)"
+  ,headerBackColor = "rgb(248,248,248)"
   ,headerBoxShadowColor = "#dfdfdf"
   ,headerBoxShadowSize = "3px 5px 5px"
 
@@ -100,3 +100,4 @@ estilo_tu <- shinyDashboardThemeDIY(
   ,tableBorderRowSize = 1
 
 )
+
