@@ -1,0 +1,20 @@
+@font-face {
+  font-family: MyriadPro;
+  src: url('MyriadPro-Regular.otf');
+}
+
+
+body {
+
+  font-family: 'MyriadPro';
+}
+
+.skin-blue .main-sidebar {
+
+  font-family: 'MyriadPro';
+}
+
+main-header {
+
+  font-family: 'MyriadPro';
+}
