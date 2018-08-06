@@ -10,14 +10,14 @@ estilo_tu <- shinyDashboardThemeDIY(
   ### general
   appFontFamily = "MyriadPro"
   ,appFontColor = "rgb(45,45,45)"
-  ,bodyBackColor = "rgb(240,240,240)"
+  ,bodyBackColor = "rgb(255,255,255)"
 
   ### header
   ,logoBackColor = "rgb(248,248,248)"
 
   ,headerButtonBackColor = "rgb(248,248,248)"
-  ,headerButtonIconColor = "rgb(220,220,220)"
-  ,headerButtonBackColorHover = "rgb(100,100,100)"
+  ,headerButtonIconColor = "rgb(153,155,158)"
+  ,headerButtonBackColorHover = "rgb(153,155,158)"
   ,headerButtonIconColorHover = "rgb(60,60,60)"
 
   ,headerBackColor = "rgb(248,248,248)"
@@ -37,8 +37,8 @@ estilo_tu <- shinyDashboardThemeDIY(
 
   ,sidebarUserTextColor = "rgb(115,115,115)"
 
-  ,sidebarSearchBackColor = "rgb(240,240,240)"
-  ,sidebarSearchIconColor = "rgb(100,100,100)"
+  ,sidebarSearchBackColor = "rgb(255,255,255)"
+  ,sidebarSearchIconColor = "rgb(153,155,158)"
   ,sidebarSearchBorderColor = "rgb(220,220,220)"
 
   ,sidebarTabTextColor = "rgb(100,100,100)"
@@ -63,13 +63,13 @@ estilo_tu <- shinyDashboardThemeDIY(
   ,boxShadowSize = "none"
   ,boxShadowColor = ""
   ,boxTitleSize = 18
-  ,boxDefaultColor = "rgb(225,225,225)"
-  ,boxPrimaryColor = "rgb(95,155,213)"
-  ,boxSuccessColor = "rgb(112,173,71)"
-  ,boxWarningColor = "rgb(237,125,49)"
-  ,boxDangerColor = "rgb(232,76,34)"
+  ,boxDefaultColor = "rgb(41,116,180)"
+  ,boxPrimaryColor = "rgb(186,203,51)"
+  ,boxSuccessColor = "rgb(247,148,30)"
+  ,boxWarningColor = "rgb(41,116,180)"
+  ,boxDangerColor = "rgb(247,148,30)"
 
-  ,tabBoxTabColor = "rgb(248,248,248)"
+  ,tabBoxTabColor = "rgb(153,155,158)"
   ,tabBoxTabTextSize = 14
   ,tabBoxTabTextColor = "rgb(100,100,100)"
   ,tabBoxTabTextColorSelected = "rgb(45,45,45)"
