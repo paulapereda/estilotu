@@ -15,7 +15,7 @@
       ...
 }
 \description{
-  Contiene un tema de Transforma Uruguay para los Shiny Dashboards.
+  Contiene tema de Transforma Uruguay para los Shiny Dashboards.
 }
 \examples{
   ### ui

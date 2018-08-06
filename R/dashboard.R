@@ -1,11 +1,23 @@
-library(here)
-library(devtools)
-library(showtext)
+#' @title Shiny Dashboard - Transforma Uruguay
+#'
+#' @description   Contiene tema de Transforma Uruguay para los Shiny Dashboards.
+#'
+#' @param
+#'
+#' @return
+#'
+#' @examples
+#'
+#' @export
+#'
+#' @import syfonts, dashboardthemes
+
+library(sysfonts)
 library(dashboardthemes)
 
-font_add("MyriadPro", "MyriadPro-Regular.otf")
+sysfonts::font_add("MyriadPro", "MyriadPro-Regular.otf")
 
-estilo_tu <- shinyDashboardThemeDIY(
+estilo_tu <- dashboardthemes::shinyDashboardThemeDIY(
 
   ### general
   appFontFamily = "MyriadPro"
