@@ -70,7 +70,7 @@ estilo_tu <- dashboardthemes::shinyDashboardThemeDIY(
   ,sidebarTabBorderWidthHover = 4
   ,sidebarTabRadiusHover = "0px"
 
-  ,boxBackColor = "rgb(248,248,248)"
+  ,boxBackColor = "rgb(255,255,255)"
   ,boxBorderRadius = 5
   ,boxShadowSize = "none"
   ,boxShadowColor = ""
