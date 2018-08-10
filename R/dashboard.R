@@ -21,7 +21,7 @@ estilo_tu <- dashboardthemes::shinyDashboardThemeDIY(
   ### general
   appFontFamily = "Arial",
   appFontColor = "rgb(153,155,158)",
-  bodyBackColor = "rgb(0,0,0)",
+  bodyBackColor = "rgb(255,255,255)",
 
   ### header
   logoBackColor = "rgb(248,248,248)",
