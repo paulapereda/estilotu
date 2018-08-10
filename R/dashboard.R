@@ -19,7 +19,7 @@ library(dashboardthemes)
 estilo_tu <- dashboardthemes::shinyDashboardThemeDIY(
 
   ### general
-  appFontColor = "rgb(45,45,45)",
+  appFontColor = "rgb(153,155,158)",
   bodyBackColor = "rgb(255,255,255)",
 
   ### header
