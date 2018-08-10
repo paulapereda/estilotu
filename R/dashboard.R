@@ -15,12 +15,10 @@
 library(sysfonts)
 library(dashboardthemes)
 
-sysfonts::font_add("MyriadPro", "MyriadPro-Regular.otf")
 
 estilo_tu <- dashboardthemes::shinyDashboardThemeDIY(
 
   ### general
-  appFontFamily = "MyriadPro",
   appFontColor = "rgb(45,45,45)",
   bodyBackColor = "rgb(255,255,255)",
 
