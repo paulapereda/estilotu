@@ -114,8 +114,3 @@ estilo_tu <- dashboardthemes::shinyDashboardThemeDIY(
 
 )
 
-fuente_tu <- function() {
-  tags$head(
-    tags$link(rel = "stylesheet", type = "text/css", href = "estilo.css"))
-}
-
