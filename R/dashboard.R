@@ -15,11 +15,13 @@
 library(sysfonts)
 library(dashboardthemes)
 
+sysfonts::font_add("MyriadPro", "MyriadPro-Regular.otf")
+
 
 estilo_tu <- dashboardthemes::shinyDashboardThemeDIY(
 
   ### general
-  appFontFamily = "Arial",
+  appFontFamily = "MyriadPro",
   appFontColor = "rgb(153,155,158)",
   bodyBackColor = "rgb(255,255,255)",
 
@@ -111,4 +113,12 @@ estilo_tu <- dashboardthemes::shinyDashboardThemeDIY(
   tableBorderRowSize = 1
 
 )
+
+fuente_body <- function() {
+  tags$head(tags$style(HTML('
+      .main-header .logo
+                        {font-family: MyriadPro;
+                            }
+                            ')))
+}
 
