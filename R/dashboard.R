@@ -114,11 +114,8 @@ estilo_tu <- dashboardthemes::shinyDashboardThemeDIY(
 
 )
 
-fuente_body <- function() {
-  tags$head(tags$style(HTML('
-      .main-header .logo
-                        {font-family: MyriadPro;
-                            }
-                            ')))
+fuente_tu <- function() {
+  tags$head(
+    tags$link(rel = "stylesheet", type = "text/css", href = "estilo.css"))
 }
 
