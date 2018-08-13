@@ -22,7 +22,7 @@ estilo_tu <- dashboardthemes::shinyDashboardThemeDIY(
 
   ### general
   appFontFamily = "MyriadPro",
-  appFontColor = "rgb(153,155,158)",
+  appFontColor = "rgb(0,0,0)",
   bodyBackColor = "rgb(255,255,255)",
 
   ### header
@@ -76,7 +76,7 @@ estilo_tu <- dashboardthemes::shinyDashboardThemeDIY(
   boxShadowSize = "none",
   boxShadowColor = "",
   boxTitleSize = 18,
-  boxDefaultColor = "rgb(41,116,180)",
+  boxDefaultColor = "rgb(153,153,158)",
   boxPrimaryColor = "rgb(186,203,51)",
   boxSuccessColor = "rgb(247,148,30)",
   boxWarningColor = "rgb(41,116,180)",
