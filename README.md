@@ -4,8 +4,9 @@ Paquete experimental con la marca de Transforma Uruguay para crear gráficos y s
 ## Prerrequisitos
 
 ```
-devtools::install_github('cttobin/ggthemr')
 devtools::install_github('yixuan/sysfonts')
+devtools::install_github('cttobin/ggthemr')
+devtools::install_github('nik01010/dashboardthemes')
 ```
 
 ## Instalación
