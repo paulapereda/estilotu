@@ -1,0 +1,18 @@
+---
+title: "Plantilla Transforma Uruguay"
+author: "Transforma Uruguay"
+date: "The Date"
+output:
+  word_document:
+    reference_docx: estilo-tu.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Título 1
+
+# Subtítulo 1
+
+## Título 2
