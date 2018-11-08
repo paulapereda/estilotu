@@ -38,10 +38,11 @@ Para utilizar el estilotu en los shinydashboards se debe:
 
 ## Colores
 
-El paquete carga 6 colores de la marca. El nombre de los colores es: 'VERDE', 'NARANJA', 'GRIS', 'AZUL', 'AMARILLO' y 'VERDE2'. Es recomendable seguir el manual de marca para la elaboración de visualizaciones que empleen la variable 'Área de Política' del siguiente modo:
+El paquete carga 7 colores de la marca. El nombre de los colores es: 'VERDE', 'NARANJA', 'GRIS', 'AZUL', 'AMARILLO', 'VERDE2' Y 'ROJO'. Es recomendable seguir el manual de marca para la elaboración de visualizaciones que empleen la variable 'Área de Política' del siguiente modo:
 
 - Ciencia, tecnología e innovación: NARANJA
 - Clima de negocios: GRIS
 - Generación de capacidades - Humanas: VERDE2
 - Generación de capacidades - Empresariales: VERDE
 - Internacionalización: AZUL
+- Hoja de Ruta: ROJO

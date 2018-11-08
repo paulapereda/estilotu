@@ -23,19 +23,10 @@ get_theme_palette <- function() {
       "#BACB33",
       "#F7941E",
       "#999B9E",
-      "#ffcc00",
       "#2974B4",
-      "#538fc3",
-      "#d0400a",
-      "#0a98cc",
-      "#94a228",
-      "#ffe066",
-      "#865eae",
-      "#f9b461",
-      "#de7953",
-      "#94b9d9",
-      "#c1c3c4",
-      "#c7d55b"),
+      "#ffcc00",
+      "#a7b62d",
+      "#c0504d"),
     gradient = c(lower = "#ffcc00", upper = "#BACB33")
   )
 

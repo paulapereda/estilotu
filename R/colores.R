@@ -3,7 +3,8 @@ paleta <- c("#BACB33",   # 1. VERDE
             "#999B9E",   # 3. GRIS
             "#2974B4",   # 4. AZUL
             "#ffcc00",   # 5. AMARILLO
-            "#a7b62d")   # 6. VERDE2
+            "#a7b62d",   # 6. VERDE2
+            "#c0504d")   # 7. ROJO
 
 VERDE <- paleta[1]
 NARANJA <- paleta[2]
@@ -11,3 +12,4 @@ GRIS <- paleta[3]
 AZUL<- paleta[4]
 AMARILLO <- paleta[5]
 VERDE2 <- paleta[6]
+ROJO <- paleta[7]
