@@ -82,13 +82,13 @@ estilo_tu <- dashboardthemes::shinyDashboardThemeDIY(
   boxWarningColor = "rgb(41,116,180)",
   boxDangerColor = "rgb(247,148,30)",
 
-  tabBoxTabColor = "rgb(240,157,222)",
+  tabBoxTabColor = "rgb(231,231,231)",
   tabBoxTabTextSize = 14,
   tabBoxTabTextColor = "rgb(100,100,100)",
   tabBoxTabTextColorSelected = "rgb(45,45,45)",
   tabBoxBackColor = "rgb(248,248,248)",
-  tabBoxHighlightColor = "rgb(200,200,200)",
-  tabBoxBorderRadius = 5,
+  tabBoxHighlightColor = "rgb(231,231,231)",
+  tabBoxBorderRadius = 0,
 
   ### inputs
   buttonBackColor = "rgb(215,215,215)",
