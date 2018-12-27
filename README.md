@@ -12,7 +12,7 @@ devtools::install_github('nik01010/dashboardthemes')
 ## Instalación
 
 ```
-devtools::install_github('paulapereda/estilotu')
+devtools::install_github('transformauy/estilotu')
 library(estilotu)
 ```
 
