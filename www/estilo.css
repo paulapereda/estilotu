@@ -4,3 +4,8 @@
 }
 
 
+.main-header .logo {
+  font-family: MyriadPro;
+  src: url('MyriadPro-Regular.otf');
+  font-size: 24px;
+}
