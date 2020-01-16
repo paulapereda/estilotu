@@ -22,11 +22,13 @@ Para que los gráficos creados con ggplot utilicen por defecto el 'estilotu', lu
 
 ```
 set_estilotu()
-
 g <- ggplot(mtcars, aes(mpg, cyl)) + geom_point()
 g
 
 ```
+
+![](ejemplo_tu.png)
+
 
 ## shinydashboard
 
